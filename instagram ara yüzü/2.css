@@ -1,0 +1,235 @@
+#cerceve{
+    display: inline-block;
+    z-index: -1;
+    position: absolute;
+    width: 450px;
+    height: 800px;
+    left: 25%;
+    top: 10%;
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: black;
+}
+#ust_bar{
+    display: inline-block;
+    position:fixed;
+    top: 119px;
+    width: 450px;
+    height: 50px;
+    background-color: black;
+
+    border-radius:25px;
+}
+#alt_bar{
+    display: inline-block;
+    position:fixed;
+    top: 848px;
+    width: 450px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+}
+#ust_bar #insta_ikon{
+    position:absolute;
+    background: -webkit-linear-gradient(45deg, pink,orange,red,purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 15px;
+    top:5px;
+    font-size: 50px;
+    
+    
+}
+#ust_bar #insta_kalp{
+    position:absolute;
+    color: white;
+    left: 75%;
+    top:5px;
+    font-size: 38px;
+    
+}
+#ust_bar #insta_dm{
+    position:absolute;
+    color: white;
+    left: 88%;
+    top:5px;
+    font-size: 38px;
+}
+#alt_bar #insta_home{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 15px;
+    font-size: 35px;
+}
+#alt_bar #insta_search{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 105px;
+    font-size: 35px;
+}
+#alt_bar #insta_add{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 205px;
+    font-size: 35px;
+}
+#alt_bar #insta_reels{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 305px;
+    font-size: 35px;
+}
+#alt_bar #insta_profil{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 400px;
+    font-size: 35px;
+}
+#ana_ekran{
+    display: inline-block;
+    position: absolute;
+    top: 169px;
+    width: 450px;
+    height: 560px;
+    background-color: rgb(190, 186, 186);
+    overflow:auto ;
+}
+#insta_story{
+    display: inline-block;
+    position:fixed;
+    top: 190px;
+    width: 450px;
+    height: 83px;
+    background-color: black;
+}
+.story{
+    border: 1px solid red;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right:15px;
+    margin-left:2px;
+
+}
+.story i{
+    position: absolute;
+    top: 16%;
+    left: 4.4px;
+    font-size: 45px;
+    
+}
+#story_1 i{
+    left: 17px;
+    color: white;
+}
+#story_2 i{
+    left: 97px;
+    top: 3%;
+    font-size: 75px;
+    background: -webkit-linear-gradient(45deg, pink,purple,orange,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+#story_3 i{
+    left: 189px;
+    top: 3%;
+    font-size: 75px;
+    background: -webkit-linear-gradient(45deg, pink,purple,orange,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#story_4 i{
+    left: 279px;
+    top: 3%;
+    font-size: 75px;
+    background: -webkit-linear-gradient(45deg, pink,purple,orange,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#story_5 i{
+    left:372px;
+    top: 3%;
+    font-size: 75px;
+    background: -webkit-linear-gradient(45deg, pink,purple,orange,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#gonderi_sahibi{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    width: 400px;
+    height: 40px;
+    
+}
+#gonderi_sahibi h3 div{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    object-fit:cover;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: white;
+}
+#gonderi_sahibi h3 div i{
+    position: absolute;
+   
+    top: 27px;
+    left: 8px;
+}
+#gonderi{
+    position: absolute;
+    top: 91px;
+    left: 0px;
+    width: 428px;
+    height: 450px;
+    
+}
+#gonderi img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#ifadeler{
+    display: inline-block;
+    position:absolute;
+    top: 549px;
+    width: 428px;
+    height: 50px;
+    
+
+    
+}
+
+#ifade1{
+    font-size: 30px;
+    position: absolute;
+    top: 7px;
+    left: 17px;
+    
+}
+#ifade2{
+    font-size: 30px;
+    position: absolute;
+    top: 7px;
+    left: 55px;
+}
+#ifade3{
+    font-size: 30px;
+    position: absolute;
+    top: 7px;
+    left: 93px;
+}
+#ifade4{
+    font-size: 30px;
+    position: absolute;
+    top: 7px;
+    left: 390px;
+}
